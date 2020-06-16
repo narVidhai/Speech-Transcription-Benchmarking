@@ -14,6 +14,8 @@
 - [AWS Transcribe](AWS-Transcribe/)
 - [Rev.ai (Temi Speech) API](RevAI-Temi-API/)
 
+Please feel free to contribute for other online speech transcriptions that you are aware of.
+
 ### Input format
 
 Ensure you have a folder of audio files in `WAV` format. (For example, `wav_folder`)  
@@ -66,3 +68,7 @@ So ensure you dump the output in that format (same as this repo format) and use 
 
 For example purposes, we have supported the following DL models:
 - [ESPnet](ESPNet-Model-Inference/)
+
+Please feel free to contribute for other DL models that you are aware of.
+
+Any pull requests or issues for bugs or fixes or new features are warmly welcomed. :-)
