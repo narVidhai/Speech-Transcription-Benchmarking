@@ -72,3 +72,11 @@ For example purposes, we have supported the following DL models:
 Please feel free to contribute for other DL models that you are aware of.
 
 Any pull requests or issues for bugs or fixes or new features are warmly welcomed. :-)
+
+<hr/>
+
+### Alternatives
+
+You can also check the following Python Libraries for more services:
+
+- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
