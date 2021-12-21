@@ -4,14 +4,15 @@
 
 ### Initial Steps
 
-1. Install Python 3
-2. Clone this repo, `cd` into it and `pip install -r requirements.txt`
-3. Go into each folder for specific services and check the `README` files
+0. Ensure you have Python 3
+1. Clone this repo and `cd` into it.
+2. Go into each folder for specific services and check the `README` files
 
 ### Supported Services
 
 - [Google Speech-To-Text](Google-Speech2Text/)
 - [AWS Transcribe](AWS-Transcribe/)
+- [Microsoft Cognitive Service](Azure-Cognitive-Service/)
 - [Rev.ai (Temi Speech) API](RevAI-Temi-API/)
 
 Please feel free to contribute for other online speech transcriptions that you are aware of.
@@ -52,8 +53,9 @@ output_txt_folder
 
 ### Measuring quality
 
-If you have ground truth in the same format as the output folder described above, you can calculate the `Word Error Rate %`  as follows:
+If you have ground truth in the same format as the output folder described above, you can calculate the `Word Error Rate` (WER)  as follows:
 
+0. Prerequisite: `pip install jiwer==2.2.0`
 1. Set the ground truth and prediction folders in the last line of `calc_wer.py`
 2. Run `python calc_wer.py`
 

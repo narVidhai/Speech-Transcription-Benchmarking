@@ -85,8 +85,8 @@ def libri_wer(gt_folder, pred_folder):
                 print('Skipping:', basename(gt_file))
                 skipped += 1
     
-    wer = compute_avg_wer(gt_lines, pred_lines) * 100.0
-    print('WER: %.2f \t Folder: %s' % (wer, pred_folder))
+    wer = compute_avg_wer(gt_lines, pred_lines)
+    print('WER: %.4f \t Folder: %s' % (wer, pred_folder))
     
 
 if __name__ == '__main__':
